@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">MyPortfolio</div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+  </header>
+ <!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Hello, I'm <span id="typing-text">Amit</span></h1>
+    <p class="hero-subtitle">A passionate Front-End Developer building interactive web experiences.</p>
+    <a href="#projects" class="btn hero-btn">View My Work</a>
+  </div>
+</section>
+  
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a web developer with a love for crafting visually appealing, user-friendly websites.
+      I specialize in HTML, CSS, and JavaScript, and I’m always learning new tools to enhance my work.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="bgc.jpg" alt="Project 1">
+        <h3>Portfolio Website</h3>
+      </div>
+      <div class="project-card">
+        <img src="https://media.istockphoto.com/id/1492645918/photo/survey-form-concept-businessman-using-laptops-do-online-checklist-surveys-questionnaire-with.jpg?s=612x612&w=0&k=20&c=lqbzWDBLxqRe99kOz2GwfWDRzkVduf2BvUzn1NBGh7Q=" alt="Project 2">
+        <h3>Task Manager App</h3>
+      </div>
+      <div class="project-card">
+        <img src="https://media.istockphoto.com/id/1311598658/photo/businessman-trading-online-stock-market-on-teblet-screen-digital-investment-concept.jpg?s=612x612&w=0&k=20&c=HYlIJ1VFfmHPwGkM3DtVIFNLS5ejfMMzEQ81ko534ak=" alt="Project 3">
+        <h3>Analytics Dashboard</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+ 
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 MyPortfolio. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
